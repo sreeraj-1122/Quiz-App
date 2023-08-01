@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+:root{
+  
+    --bg-color: #001e4d;
+    --second-color: #222;
+    --text-color: #fff;
+    
+}
+body{
+    background-color: var(--bg-color);
+   
+}
+.app{
+    background-color: #fff;
+    width: 90%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding: 30px;
+}
+.app h1{
+    font-size: 35px;
+    color: rgb(20, 97, 97);
+    font-weight: 600;
+    border-bottom: 1px solid #332;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.quiz h2{
+    color: black;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 15px;
+
+}
+.btn{
+    background-color: white;
+    color: #0a0a0a;
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+    margin: 10px 0;
+    font-weight: 500;
+    border-radius: 4px;
+    transition: all 0.3s;
+    cursor: pointer;
+    
+}
+
+.btn:hover:not([disabled]){
+    background-color: #0a0a0a;
+    color: white;
+}
+.btn:disabled{
+    cursor: no-drop;
+}
+
+#next-btn{
+    background-color: var(--bg-color);
+    color: #fff;
+    font-weight: 600;
+    width: 150px;
+    border: 0;
+    padding: 10px;
+    margin: 20px auto 0;
+    border-radius: 10px;
+    cursor: pointer;
+    display: none;
+}
+.correct{
+    background-color: #9aeabc;
+}
+.incorrect{
+    background-color: #ff9393;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+footer .footer-text{
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 2px;
+    position: fixed;
+    
+
+}
+
+footer p .year{
+    color: #03f90d;
+}
+footer p .hacker{
+    color: #1fb4cd;
+}
+
